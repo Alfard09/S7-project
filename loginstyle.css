@@ -1,0 +1,152 @@
+.login{
+    padding-top: 170px;
+    background-color: #262b2f;
+  
+
+}
+.form-login{
+    background: white;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0.1);
+    overflow: hidden;
+    
+}
+.col{
+    width: 100%;
+}
+.form-login span{
+    font-weight: bold;
+    padding: 0 10px;
+   
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+#logspan{
+    margin: 0 95px;
+}
+#regspan{
+    margin: 0 95px;
+}
+.form-btn{
+    display: inline-block;
+}
+.form-login form{
+    /* max-width: 100px; */
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+    
+
+}
+
+#login{
+    left: -600px;
+}
+#register{
+    left: 0px;
+}
+/* .form-login form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+} */
+.reg form input{
+    /* width:250%; */
+    width: 210%;
+    height: 50px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+
+}
+.log form input{
+    /* width:250%; */
+    width: 250%;
+    height: 50px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.form-login form #register input{
+    padding-right: 45px;
+}
+/* .form-login form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+} */
+.reg form .btn{
+    width: 200%;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+.reg p{
+    margin: 5px 0 5px 0; 
+    
+    padding: 0;
+    color: red;
+    font-size: 14px;
+}
+#user-error{
+    width: 290px;
+}
+#email-error{
+    
+    width: 245px;
+   
+}
+ #pass-error{
+    /* width: 250px; */
+    width: 525px;
+    /* margin: 0;
+    padding: 0;
+    margin: 5px 0 5px 0;
+    color: red; */
+}
+
+.log form .btn{
+    width: 250%;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+.form-login form .btn:focus{
+    outline: none;
+}
+form a{
+    font-size: 12px;
+}
+#indicator{
+    width: 200px;
+    border: none;
+    background: rgb(2, 2, 3);
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(380px);
+    transition: transform 1s;
+
+}
